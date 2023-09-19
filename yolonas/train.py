@@ -15,13 +15,13 @@ from tqdm.auto import tqdm
  
 
 ROOT_DIR = '#' # to be replaced with the path to the root directory of the dataset
+classes = "#" # list of class names
 train_imgs_dir = 'images/train'
 train_labels_dir = 'labels/train'
 val_imgs_dir = 'images/val'
 val_labels_dir = 'labels/val'
 test_imgs_dir = 'images/test'
 test_labels_dir = 'labels/test'
-classes = ['Item']
  
 dataset_params = {
     'data_dir':ROOT_DIR,
