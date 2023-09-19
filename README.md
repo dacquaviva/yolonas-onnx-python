@@ -36,7 +36,7 @@ ROOT
 ### Test
 Run the script `yolonas/test.py` to test the trained model on an image, replace # with the correct value.
 
-## ONNX
+## <a href="https://github.com/Deci-AI/super-gradients/blob/master/documentation/source/models_export.md">ONNX</a>  
 ### Convert model to ONNX
 Run the script `onnx/convert_to_onnx.py` to convert trained model to onnx, replace # with the correct value.
 ### Inference ONNX model using webcam
