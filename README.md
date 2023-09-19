@@ -1,5 +1,5 @@
 # yolonas-onnx-python
-Example of training YOLO-NAS and exporting (ONNX) as well as inferencing with python using onnxruntime.
+Example of training <a href="https://github.com/Deci-AI/super-gradients/blob/master/YOLONAS.md">YOLO-NAS</a> and exporting (<a href="https://github.com/Deci-AI/super-gradients/blob/master/documentation/source/models_export.md">ONNX</a>) as well as inferencing with python using onnxruntime.
 
 ## Setup
 
@@ -16,7 +16,8 @@ pip install super-gradients #install super-gradients package for training
 ```
 pip install onnxruntime-gpu #install onnxruntime-gpu for model inference using ONNX model
 ```
-## YOLONAS
+## <a href="https://github.com/Deci-AI/super-gradients/blob/master/YOLONAS.md">YOLO-NAS</a>   
+
 ### Train
 Run the script `yolonas/train.py` to train a model on a custom dataset (make sure to save the dataset according to the used folder structure), replace # with the correct value.
 
